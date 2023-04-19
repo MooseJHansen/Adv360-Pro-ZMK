@@ -4,4 +4,3 @@ label = "macro_email_wrk";
 #binding-cells = <0>;
 bindings = <&kp LS(M)>, <&kp A>, <&kp R>, <&kp K>, <&kp DOT>, <&kp H>, <&kp A>, <&kp N>, <&kp S>, <&kp E>, <&kp N>, <&kp AT_SIGN>, <&kp C>, <&kp O>, <&kp M>, <&kp TAB>;
 };
-
