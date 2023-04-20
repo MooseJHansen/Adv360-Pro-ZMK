@@ -1,4 +1,9 @@
-
+macro_tap: macro_tap{
+compatible = "zmk,behavior-macro";
+label = "macro_tap";
+#binding-cells = <0>;
+bindings = <&kp Z>, <&kp M>, <&kp K>, <&kp T>, <&kp A>, <&kp P>;
+};
 macro_email: macro_email{
 compatible = "zmk,behavior-macro";
 label = "macro_email";
