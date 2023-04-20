@@ -4,17 +4,6 @@ label = "macro_test";
 #binding-cells = <0>;
 bindings = <&kp LS(W)>, <&kp E>, <&kp A>, <&kp A>, <&kp A>, <&kp G>, <&kp G>, <&kp G>, <&kp G>, <&kp G>, <&kp G>, <&kp N1>, <&kp LS(N1)>;
 };
-macro_test_tap: macro_test_tap{
-compatible = "zmk,behavior-macro_tap";
-label = "macro_test";
-#binding-cells = <0>;
-bindings
-    = <&macro_tap_time 10>
-    , <&kp S &kp H &kp O &kp R &kp T>
-    , <&macro_tap_time 500>
-    , <&kp L &kp O &kp N &kp G>
-    ;
-};	
 macro_email: macro_email{
 compatible = "zmk,behavior-macro";
 label = "macro_email";
