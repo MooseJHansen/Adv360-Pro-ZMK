@@ -1,8 +1,13 @@
 macro_copy_paste: macro_copy_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_copy_paste";
-#binding-cells = <0>;
-bindings = ;
+#binding-cells = <0>; 
+bindings
+    = <&macro_tap_time 10>
+    , <&kp S &kp H &kp O &kp R &kp T>
+    , <&macro_tap_time 500>
+    , <&kp L &kp O &kp N &kp G>
+    ;
 };
 macro_email_wrk: macro_email_wrk{
 compatible = "zmk,behavior-macro";
