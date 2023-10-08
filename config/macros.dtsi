@@ -1,4 +1,4 @@
-macro_pswd: macro_intl{
+macro_intl: macro_intl{
 compatible = "zmk,behavior-macro";
 label = "macro_pswd";
 #binding-cells = <0>;
