@@ -11,7 +11,7 @@
         #binding-cells = <0>;
         bindings
             = <&kp LS(M)>, <&kp A>, <&kp R>, <&kp K>, <&kp DOT>, <&kp LS(H)>, <&kp A>, <&kp N>, <&kp S>, <&kp E>, <&kp N>,
-              <&kp AT_SIGN>, <&kp LS(W)>, <&kp A>, <&kp R>, <&kp N>, <&kp E>, <&kp R>, <&kp LS(M)>, <&kp E>, <&kp D>, <&kp I>, <&kp A>,
+              <&kp AT_SIGN>, <&kp W>, <&kp B>, <&kp D>,
               <&kp DOT>, <&kp C>, <&kp O>, <&kp M>, <&macro_wait_time 500>, <&kp TAB>; 
     };
         macro_copy: macro_copy{
